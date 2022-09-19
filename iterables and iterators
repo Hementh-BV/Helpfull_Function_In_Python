@@ -1,0 +1,22 @@
+# List is a iterables
+
+lst = [1,2,3,4,5]
+#
+# for i in lst:
+#     print(i)
+
+# iterator
+lst1 = iter(lst)
+# print(lst1)
+# print(next(lst1))
+# print(next(lst1))
+# print(next(lst1))
+# print(next(lst1))
+# print(next(lst1))
+# print(next(lst1))
+
+next(lst1) # OUTPUT 1
+for i in lst1: # for loop already has stopiterator exception handling which stops exactly at the last ele of the list
+    print(i)
+
+# OUTPUT 2 3 4 5
