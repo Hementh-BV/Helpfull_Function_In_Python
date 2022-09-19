@@ -1,0 +1,18 @@
+# list comprehension provides concise way to create list
+
+lst1 = []
+def square(lst):
+    for i in lst:
+        lst1.append(i*i)
+
+square([1,2,3,4,5])
+print(lst1)
+
+lst=[1,2,3,4,5]
+list2 = [i * i for i in lst]
+print(list2)
+
+lst=[1,2,3,4,5]
+list2 = [i * i for i in lst if i % 2==0]
+print(list2)
+
